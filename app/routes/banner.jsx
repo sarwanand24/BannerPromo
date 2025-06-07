@@ -1,5 +1,5 @@
 // app/routes/banner.jsx
-import styles from "~/styles/banner.module.css";
+import styles from "../styles/banner.module.css";
 
 export const loader = () => {
   return null; // no data needed
