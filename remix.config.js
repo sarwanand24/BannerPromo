@@ -13,8 +13,9 @@ if (
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
   ignoredRouteFiles: ["**/.*"],
-  appDirectory: "app",
-  serverModuleFormat: "cjs",
+  appDirectory: "app",  
+  serverModuleFormat: "esm",
+  server: "./server.js",
   dev: { port: process.env.HMR_SERVER_PORT || 8002 },
   future: {},
 };
